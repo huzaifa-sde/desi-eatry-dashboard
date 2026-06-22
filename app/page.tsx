@@ -1,29 +1,23 @@
-'use client'
+import Navbar from "@/components/landing/Navbar";
+import Hero from "@/components/landing/Hero";
+import Services from "@/components/landing/Services";
+import MenuGallery from "@/components/landing/MenuGallery";
+import Reviews from "@/components/landing/Reviews";
+import B2BSection from "@/components/landing/B2BSection";
+import Footer from "@/components/landing/Footer";
+import WhatsAppFloat from "@/components/landing/WhatsAppFloat";
 
-import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
-import api from '@/lib/axios-instance'
-import { Spinner } from '@/components/ui/spinner'
-
-export default function Page() {
-  const router = useRouter()
-
-  useEffect(() => {
-    const checkSession = async () => {
-      try {
-        await api.get('/admin/me')
-        window.location.replace('/dashboard')
-      } catch {
-        window.location.replace('/login')
-      }
-    }
-
-    checkSession()
-  }, [])
-
+export default function LandingPage() {
   return (
-    <div className="flex h-screen w-full items-center justify-center">
-      <Spinner size="48" />
-    </div>
-  )
+    <main className="bg-desi-brown">
+      <Navbar />
+      <Hero />
+      <Services />
+      <MenuGallery />
+      <Reviews />
+      <B2BSection />
+      <Footer />
+      <WhatsAppFloat />
+    </main>
+  );
 }
