@@ -15,36 +15,31 @@ const DISHES = [
     name: "Beef Nihari",
     desc: "Slow-cooked beef shank stew, a Karachi breakfast classic",
     tag: "Morning Special",
-    image:
-      "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=600&q=80",
+    image: "/menu/nihari.png",
   },
   {
-    name: "Mutton Korma",
-    desc: "Rich, creamy korma slow-cooked with yogurt and aromatic spices",
+    name: "Mutton Karhai",
+    desc: "Tender mutton cooked in a wok with tomatoes, ginger & desi spices",
     tag: "Weekend Special",
-    image:
-      "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80",
+    image: "/menu/muttonkarhai.png",
   },
   {
     name: "Beef Pulao",
     desc: "Aromatic one-pot rice with tender beef and whole spices",
     tag: "Daily",
-    image:
-      "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80",
+    image: "/menu/beefpulao.png",
   },
   {
     name: "Daal Chawal",
     desc: "Comfort food at its finest — lentils and steamed rice done right",
     tag: "Daily",
-    image:
-      "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80",
+    image: "/menu/daalchawal.png",
   },
   {
-    name: "Chapli Kabab",
-    desc: "Crispy Peshawari-style minced beef patties with coriander & tomato",
+    name: "Shami Kabab",
+    desc: "Soft, melt-in-the-mouth beef & chana dal patties, pan-fried to golden perfection",
     tag: "Evening",
-    image:
-      "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80",
+    image: "/menu/shamikabab.png",
   },
 ];
 

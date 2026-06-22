@@ -88,7 +88,7 @@ export default function Footer() {
         {/* Bottom strip */}
         <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-desi-ember/10 pt-4 text-center sm:flex-row sm:text-left">
           <p className="text-xs text-desi-cream/60">
-            © 2025 Desi Eatry. All rights reserved. | Made with ❤️ in Karachi
+            © 2026 Desi Eatry. All rights reserved. | Made with ❤️ in Karachi
           </p>
           <Link
             href="/login"
